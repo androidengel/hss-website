@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quattrocento Sans', 'sans-serif';
+    background: url('homepage_bg2.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.main-container {
+    color: lightgray;
+}
+
+.signup-wrapper {
+    background-color: rgba(52, 58, 64, 0.80);
+}
+
+.right {
+    /* background-color: red; */
+}
+
+.left {
+    /* background-color: blue; */
+    /* padding-left: 50px; */
+    margin: auto;
+}
+
+.empty-space {
+    height: 50px;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+#mc_embed_signup {
+    color: #5d5d5d;
+}
