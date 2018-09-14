@@ -17,11 +17,18 @@ body {
     background-color: rgba(52, 58, 64, 0.80);
 }
 
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
 .right {
     /* background-color: red; */
 }
 
-.left {
+.middle {
     /* background-color: blue; */
     /* padding-left: 50px; */
     margin: auto;
@@ -31,8 +38,8 @@ body {
     height: 50px;
 }
 
-h2 {
-    font-size: 2em;
+h1 {
+    font-size: 3rem;
 }
 
 #mc_embed_signup {
