@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans|Allura" rel="stylesheet">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <script src="index.js"></script>
 </head>
@@ -45,7 +45,7 @@
                 <h1 class="text-center text-uppercase font-weight-bold">Need to sell your home <span>fast</span>?</h1>
                 <h4 class="text-center">We're here to help!</h4>
                 <h5 class="text-center">Just fill out our form and we'll be happy to find the best solution for you.</h5>
-                <div class="card card-shadow mx-auto my-4" style="max-width: 20rem;">
+                <div class="card card-shadow mx-auto my-4" style="max-width: 25rem;">
                     <div class="card-body">
                     <!-- Begin MailChimp Signup Form -->
                         <div class="rounded" id="mc_embed_signup">
@@ -53,30 +53,31 @@
                                 <div id="mc_embed_signup_scroll">
                                     <div class="mc-address-group">
                                         <div class="mc-field-group">
-                                            <div class="mc-field-group">
-                                                <label for="mce-FNAME">Name </label>
-                                                <input type="text" value="" width" name="FNAME" class="" id="mce-FNAME">
-                                            </div>
-                                            <label for="mce-ADDRESS-addr1">Property Address  <span class="asterisk">*</span>
-                                            </label>
+                                            <label for="mce-FNAME">Name </label>
+                                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                                            <label for="mce-ADDRESS-addr1">Property Address  <span class="asterisk">*</span></label>
                                             <input type="text" value="" maxlength="70" name="ADDRESS[addr1]" id="mce-ADDRESS-addr1" class="required">
+                                            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin: 8px 0">
+                                            <label for="mce-PHONE">Phone Number </label>
+                                            <input type="text" name="PHONE" class="" value="" id="mce-PHONE">
                                         </div>
-                                    </div>
-                                    <div class="mc-field-group">
-                                        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-                                    </label>
-                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                                    </div>
-                                    <div class="mc-field-group size1of2">
-                                        <label for="mce-PHONE">Phone Number </label>
-                                        <input type="text" name="PHONE" class="" value="" id="mce-PHONE">
-                                    </div>
-                                    <div id="mce-responses" class="clear">
-                                        <div class="response" id="mce-error-response" style="display:none"></div>
-                                        <div class="response" id="mce-success-response" style="display:none"></div>
-                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f463b79d6189fd2007efebe26_9231557c7d" tabindex="-1" value=""></div>
-                                    <div class="clear"><input type="submit" value="Get Me an Offer" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                                    </div>                                        
+                                </div>                                        
+                        </div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f463b79d6189fd2007efebe26_9231557c7d" tabindex="-1" value=""></div>
+                                <div class="clear">
+                                    <input type="submit" 
+                                            value="Make Me a No-Obligation Offer" 
+                                            name="subscribe" 
+                                            id="mc-embedded-subscribe" 
+                                            style="width: 100%; height: 4rem; font-size: 1.2rem; margin: 0; white-space: normal"
+                                            class="button">
+                                </div>
                                 </div>
                             </form>
                         </div>
@@ -92,6 +93,27 @@
         <div class="row">
             <div class="empty-space"></div>
         </div>
+    <!-- START HOW IT WORKS ROW -->
+    <div class="row how-it-works-wrapper">
+            <div class="col-md-3"></div>
+            <div class="col-md-3 pt-3 text-center" id="howtext">
+                <h2>How it works</h2>
+            </div>
+            <div class="col-md-3">
+                <div class="card card-shadow mx-auto my-4">
+                    <div class="card-body">
+                        <ol class="card-list">
+                            <li><img alt="Fill out form" src='./assets/icon-form.svg'>Fill out form</li><hr>
+                            <li><img alt="We'll contact you" src='./assets/icon-contact.png'>We'll contact you</li><hr>
+                            <li><img alt="We'll make you an offer" src='./assets/icon-house.png'>We'll make you an offer</li><hr>
+                            <li><img alt="If accepted, we'll buy our house" src='./assets/icon-handshake.png'>If you accept we'll buy your house</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    <!-- END HOW IT WORKS ROW -->
     <!-- START WHAT WE DO ROW -->
         <div class="row what-we-do-wrapper text-center">
             <div class="col-md-4">We close in as little as 7 days</div>
