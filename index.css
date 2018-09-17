@@ -21,16 +21,15 @@ body {
     background-color: rgb(52, 58, 64);
 }
 
-#howtext {
-    margin: auto;
-}
-
 .how-it-works-wrapper h2 {
     font-family: 'Allura', cursive;
     font-weight: bolder;
     color: #dede8a; 
     font-size: 3rem;
-      
+}
+
+.inside-bullet {
+    list-style-position: inside;
 }
 
 .card-list {
@@ -39,15 +38,28 @@ body {
     font-size: 1.25rem;
 }
 
+.card-img-top {
+    width: auto;
+}
+
 .what-we-do-wrapper {
     background-color: #FFF;
-    height: 100px;
     color: rgb(70, 69, 69);
 }
 
+.what-we-do-wrapper {
+    background: lightblue;
+}
+
+.issues-title-wrapper {
+    background: #C25B56;
+    padding: 2rem 0 1rem 0;
+}
+
 .issues-wrapper {
-    background-color: #88dddd;
-    height: 100px;
+    background: #C25B56;
+    padding: 0 1rem 1rem 1rem;
+    /* background-color: #88dddd; */
 }
 
 #mc_embed_signup {
@@ -73,13 +85,7 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-.right {
-    /* background-color: red; */
-}
-
 .middle {
-    /* background-color: blue; */
-    /* padding-left: 50px; */
     margin: auto;
 }
 
@@ -89,4 +95,9 @@ input[type=text] {
 
 h1 {
     font-size: 3rem;
+}
+
+.footer-row {
+    height: 100px;
+    background: whitesmoke;
 }
