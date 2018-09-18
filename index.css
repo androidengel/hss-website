@@ -42,13 +42,9 @@ body {
     width: auto;
 }
 
-.what-we-do-wrapper {
-    background-color: #FFF;
-    color: rgb(70, 69, 69);
-}
-
-.what-we-do-wrapper {
-    background: lightblue;
+.card-body h5 {
+    font-weight: bolder;
+    padding-top: 1rem;
 }
 
 .issues-title-wrapper {
@@ -68,6 +64,29 @@ body {
     clear:left; 
     font:16px 'Quattrocento Sans',Arial,sans-serif; 
     color: #5d5d5d;
+}
+
+.what-we-do-title-wrapper {
+    background-color: lightblue;
+    color: rgb(70, 69, 69);
+    padding: 2rem 0 1rem 0;
+    font-weight: bolder;
+}
+
+.what-we-do-wrapper {
+    background-color: lightblue;
+    color: rgb(70, 69, 69);
+}
+
+.additional-info-title-wrapper {
+    text-align: center;
+    background: whitesmoke;
+    color: rgb(70, 69, 69);
+}
+
+.additional-info-wrapper {
+    background: whitesmoke;
+    color: rgb(70, 69, 69);
 }
 
 .card-shadow {
@@ -101,4 +120,5 @@ h1 {
 .footer-row {
     height: 100px;
     background: whitesmoke;
+    color: rgb(70, 69, 69);
 }
