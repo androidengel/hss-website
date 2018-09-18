@@ -28,6 +28,10 @@ body {
     font-size: 3rem;
 }
 
+.how-it-works-wrapper .card {
+    max-width: 500px;
+}
+
 .card-list {
     color: rgb(70, 69, 69);
     font-size: 1.25rem;
