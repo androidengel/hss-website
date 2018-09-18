@@ -9,6 +9,16 @@ body {
     background-size: cover;
 }
 
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-phone a {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    position: sticky;
+}
+
 .main-container {
     color: rgb(255, 255, 255);
 }
