@@ -32,6 +32,14 @@ body {
     list-style-position: inside;
 }
 
+.expand {
+    transition: 0.25s ease-out;
+}
+
+.expand:hover {
+    transform: scale(1.03);
+}
+
 .card-list {
     color: rgb(70, 69, 69);
     list-style: none;
@@ -70,7 +78,6 @@ body {
     background-color: lightblue;
     color: rgb(70, 69, 69);
     padding: 2rem 0 1rem 0;
-    font-weight: bolder;
 }
 
 .what-we-do-wrapper {
