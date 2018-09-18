@@ -55,8 +55,8 @@ body {
     padding: 15px 0 10px 70px;
 }
 
-.inside-bullet {
-    list-style-position: inside;
+.outside-bullet {
+    list-style-position: outside;
 }
 
 .expand {
@@ -85,7 +85,6 @@ body {
     background: #C25B56;
     padding: 0 1rem 1rem 1rem;
     font-size: 1.4rem;
-    /* background-color: #88dddd; */
 }
 
 #mc_embed_signup {
@@ -104,6 +103,20 @@ body {
 .what-we-do-wrapper {
     background-color: lightblue;
     color: rgb(70, 69, 69);
+}
+
+.card-deck {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.card-deck .card {
+    display: block;
+    width: 100%;
 }
 
 .additional-info-title-wrapper {
