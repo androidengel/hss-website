@@ -9,8 +9,40 @@ body {
     background-size: cover;
 }
 
+.nav-container {
+    background: #343a40;
+}
+
 .navbar-brand {
     font-size: 1.5rem;
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+.collapse.show {
+    text-align: right;
+}
+
+@media (max-width: 359px) {
+    .navbar-brand {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 414px) and (min-width: 360px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-phone {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
 }
 
 .nav-phone a {
