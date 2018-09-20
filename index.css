@@ -192,6 +192,12 @@ body {
     
 }
 
+@media (max-width: 768px) {
+    .card-deck .card {
+        width: 50%;
+    }
+}
+
 .card-deck .card {
     display: block;
     width: 100%;
