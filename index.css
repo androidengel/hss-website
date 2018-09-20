@@ -59,6 +59,7 @@ body {
     background-color: rgba(52, 58, 64, 0.80);
 }
 
+
 .how-it-works-wrapper {
     background-color: rgb(52, 58, 64);
 }
@@ -164,7 +165,7 @@ body {
 }
 
 #mc_embed_signup .button-override:hover {
-    background-color: rgb(226, 18, 7);
+    background-color: rgb(209, 29, 19);
 }
 
 #mc_embed_signup_scroll {
@@ -190,12 +191,6 @@ body {
     display: flex;
     flex-flow: row wrap;
     
-}
-
-@media (max-width: 768px) {
-    .card-deck .card {
-        width: 50%;
-    }
 }
 
 .card-deck .card {
@@ -246,4 +241,5 @@ h1 {
     height: 100px;
     background: whitesmoke;
     color: rgb(70, 69, 69);
+    border-top: 1px solid rgb(70, 69, 69);;
 }
