@@ -50,8 +50,9 @@ h1 {
 @media (max-width: 767px) {
     .nav-phone {
         display: flex;
-        justify-content: center;
+        justify-content: flext-start;
         padding-bottom: 10px;
+        margin-left: 15px;
     }
 }
 
@@ -155,6 +156,10 @@ h1 {
 .col-text h3 {
     line-height: 3rem;
     margin: 3rem 0;
+}
+
+.bg-opaque-gray {
+    background-color: rgba(52, 58, 64, 0.50);
 }
 
 .bg-light-gray {
