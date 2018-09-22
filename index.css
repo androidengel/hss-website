@@ -3,10 +3,23 @@
     padding: 0;
 }
 
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     font-family: 'Quattrocento Sans', 'sans-serif';
-    background: url('./assets/homepage_bg2.jpg') no-repeat center fixed;
-    background-size: cover;
+    /* background: url('./assets/homepage_bg2.jpg') no-repeat center fixed;
+    background-size: cover; */
+    color: white;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .nav-container {
@@ -40,8 +53,9 @@ body {
 @media (max-width: 767px) {
     .nav-phone {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         padding-bottom: 10px;
+        margin-left: 15px;
     }
 }
 
@@ -55,13 +69,33 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.signup-wrapper {
-    background-color: rgba(52, 58, 64, 0.80);
+#signup-wrapper {
+    box-sizing: border-box;
+    font-weight: bold;
+    min-height: 75vh;
+    padding: 0 5vw 5vw 5vw;
+    position: relative;
+    transform-style: inherit;
 }
 
+#signup-wrapper, #signup-wrapper::before {
+    background: rgba(52, 58, 64, 0.50) 50% / cover;
+}
 
-.how-it-works-wrapper {
-    background-color: rgb(52, 58, 64);
+#signup-wrapper::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url('./assets/homepage_bg2.jpg');
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
 }
 
 .how-it-works-wrapper h2 {
@@ -155,7 +189,7 @@ body {
     font-weight: bold;
     height: 4rem;
     line-height: normal;
-    margin: 0 5px 10px 0;
+    margin: 10px 5px 0 0;
     padding: 0 22px;
     text-align: center;
     text-decoration: none;
@@ -218,13 +252,6 @@ h1 > span {
     text-decoration: underline; */
 }
 
-input[type=text] {
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-
 .middle {
     margin: auto;
 }
@@ -241,5 +268,5 @@ h1 {
     height: 100px;
     background: whitesmoke;
     color: rgb(70, 69, 69);
-    border-top: 1px solid rgb(70, 69, 69);;
+    border-top: 1px solid lightgrey;
 }
