@@ -39,13 +39,47 @@
         </div>
     </div>
     <!-- END NAVIGATION PANE -->
-    <div class="container-fluid main-container">
+
+
+    <!-- <div class="container-fluid main-container">
         <div class="row">
             <div class="col-lg-2 col-md-1"></div>
             <div class="col-lg-8 col-md-10">
                 <div class="faqs" style="height: 300px;"></div>
             </div>
             <div class="col-lg-2 col-md-1"></div>
+        </div>
+    </div> -->
+
+    <div class="accordion">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        FAQ #1
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    FAQ BODY TEXT ONE
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        FAQ #2
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingtwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    FAQ BODY TEXT TWO
+                </div>
+            </div>
         </div>
     </div>
 
