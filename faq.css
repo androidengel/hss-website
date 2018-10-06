@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Quattrocento Sans', 'sans-serif';
+    color: white;
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nav-container {
+    background: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-collapse {
+    text-align: right;
+}
+
+.collapse.show {
+    text-align: right;
+}
+
+@media (max-width: 359px) {
+    .navbar-brand {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 414px) and (min-width: 360px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-phone {
+        display: flex;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+        margin-left: 15px;
+    }
+}
+
+.nav-phone a {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    position: sticky;
+}
+
+.faq {
+    box-sizing: border-box;
+    font-weight: bolder;
+    min-height: 75vh;
+    position: relative;
+    transform-style: inherit;
+    /* letter-spacing: 10px; */
+}
+
+.faq, .faq::before {
+    background: 50% 50% / cover;
+}
+
+.faq::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url('./assets/homepage_bg2.jpg');
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
+
+#accordion-faq {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.card-faq {
+
+}
+
+.card-header-faq {
+    background-color: #343a40;    
+}
+
+.card-header button {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+    white-space: normal;
+}
+
+.card-header button:hover {
+    color: whitesmoke;
+}
+
+.card-body-faq {
+    background-color: whitesmoke;
+    color: #343a40;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: .75rem;
+}

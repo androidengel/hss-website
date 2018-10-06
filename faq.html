@@ -6,7 +6,7 @@
     <title>Home Selling Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="faq.css" />
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans|Allura" rel="stylesheet">
 </head>
 <body>
@@ -51,33 +51,35 @@
         </div>
     </div> -->
 
-    <div class="accordion">
-        <div class="card">
-            <div class="card-header">
-                <h5 class="mb-0">
-                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        FAQ #1
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                    FAQ BODY TEXT ONE
+    <div class="faq">
+        <div class="accordion" id="accordion-faq">
+            <div class="card border-0">
+                <div class="card-header card-header-faq">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Why do you have an FAQ page?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body card-body-faq">
+                        FAQ BODY TEXT ONE
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card">
-            <div class="card-header">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                        FAQ #2
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingtwo" data-parent="#accordionExample">
-                <div class="card-body">
-                    FAQ BODY TEXT TWO
+            <div class="card border-0">
+                <div class="card-header card-header-faq">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            What is the point of me coming here?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingtwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        FAQ BODY TEXT TWO
+                    </div>
                 </div>
             </div>
         </div>
