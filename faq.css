@@ -69,7 +69,6 @@ body {
     min-height: 75vh;
     position: relative;
     transform-style: inherit;
-    /* letter-spacing: 10px; */
 }
 
 .faq, .faq::before {
@@ -98,7 +97,7 @@ body {
 }
 
 .card-faq {
-
+    
 }
 
 .card-header-faq {
@@ -117,9 +116,14 @@ body {
 }
 
 .card-body-faq {
-    background-color: whitesmoke;
+    background-color: rgba(156, 166, 177, 0.5);
     color: #343a40;
     text-align: left;
     padding-left: 2rem;
     padding-right: .75rem;
+}
+
+.plus {
+    background: url('./assets/icon-plus-24.png') left center no-repeat;
+    padding: 15px 0 10px 40px;
 }
