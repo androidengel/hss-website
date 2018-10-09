@@ -177,3 +177,10 @@ h1 {
 .txt-black {
     color: black;
 }
+
+.footer-row {
+    height: 100px;
+    background: whitesmoke;
+    color: rgb(70, 69, 69);
+    border-top: 1px solid lightgrey;
+}

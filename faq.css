@@ -127,3 +127,15 @@ body {
     background: url('./assets/icon-plus-24.png') left center no-repeat;
     padding: 15px 0 10px 40px;
 }
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer-row {
+    height: 100px;
+    background: whitesmoke;
+    color: rgb(70, 69, 69);
+    border-top: 1px solid lightgrey;
+    flex-shrink: 0;
+}
