@@ -10,8 +10,6 @@ html {
 
 body {
     font-family: 'Quattrocento Sans', 'sans-serif';
-    /* background: url('./assets/homepage_bg2.jpg') no-repeat center fixed;
-    background-size: cover; */
     color: white;
     margin: 0;
     padding: 0;
@@ -85,7 +83,7 @@ body {
 #signup-wrapper::before {
     bottom: 0;
     content: "";
-    left: 0;
+    left: -1rem;
     position: absolute;
     right: 0;
     top: 0;

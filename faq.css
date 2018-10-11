@@ -78,7 +78,7 @@ body {
 .faq::before {
     bottom: 0;
     content: "";
-    left: 0;
+    left: -1rem;
     position: absolute;
     right: 0;
     top: 0;
