@@ -66,13 +66,14 @@ body {
 .faq {
     box-sizing: border-box;
     font-weight: bolder;
-    min-height: 75vh;
+    min-height: 100vh;
     position: relative;
     transform-style: inherit;
 }
 
 .faq, .faq::before {
     background: 50% 50% / cover;
+    overflow: hidden;
 }
 
 .faq::before {
@@ -93,7 +94,7 @@ body {
 
 #accordion-faq {
     width: 80%;
-    margin: 2rem auto;
+    margin: 5rem auto;
 }
 
 .card-faq {
