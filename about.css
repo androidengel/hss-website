@@ -175,14 +175,42 @@ h1 {
 }
 
 .col-text {
-    font-size: 3em;
     display: flex;
     align-items: center;
 }
 
+#bio-text {
+    padding: 0 3rem;
+}
+
+@media (max-width: 768px) {
+    #bio-text {
+        padding: 0 2rem;
+    }
+}
+
 .col-text h3 {
-    line-height: 3rem;
+    font-size: 2.3rem;
+    line-height: 5rem;
     margin: 3rem 0;
+}
+
+@media (max-width: 768px) and (min-width: 700px){
+    .col-text h3 {
+        font-size: 1.2rem;
+        line-height: 3rem;
+        text-align: center;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .col-text h3 {
+        font-size: 2rem;
+        line-height: 3rem;
+        text-align: center;
+        margin: 1rem 0;
+    }
 }
 
 .bg-opaque-gray {
